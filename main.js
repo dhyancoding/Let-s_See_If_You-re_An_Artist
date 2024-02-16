@@ -7,7 +7,7 @@ function setup(){
     canvas.center()
     background("white")
     canvas.mouseReleased(ClassifyCanvas)
-    s = window.SpeechSynthesis
+    s = window.speechSynthesis
 
 }
 
